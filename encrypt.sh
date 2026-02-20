@@ -25,6 +25,7 @@ npx staticrypt "${html_files[@]}" \
   -d "$OUT_DIR" \
   --short \
   --remember 30 \
+  --label "claude-artifacts" \
   --template-title "Claude Artifact" \
   --template-instructions "Enter the password to view this artifact."
 
